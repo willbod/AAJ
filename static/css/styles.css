@@ -11,3 +11,9 @@
   max-height: 50px;
   align-items: center;
 }
+
+.icontext {
+  color: #777777;
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
