@@ -1,3 +1,4 @@
+//Esp
 $('#qsModal').on('shown.bs.modal', function () {
   $('#qsInput').focus()
 })
@@ -16,4 +17,25 @@ $('#cModal').on('shown.bs.modal', function () {
 
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').focus()
+})
+
+//Eng
+$('#eqsModal').on('shown.bs.modal', function () {
+  $('#eqsInput').focus()
+})
+
+$('#emModal').on('shown.bs.modal', function () {
+  $('#emInput').focus()
+})
+
+$('#evModal').on('shown.bs.modal', function () {
+  $('#evInput').focus()
+})
+
+$('#ecModal').on('shown.bs.modal', function () {
+  $('#ecInput').focus()
+})
+
+$('#emyModal').on('shown.bs.modal', function () {
+  $('#emyInput').focus()
 })
