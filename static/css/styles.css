@@ -21,3 +21,13 @@
 .lightblueback {
   background-color: #CED8F6 !important;
 }
+
+.pointer {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.contact {
+    color: #777777 !important;
+    text-align: center;
+}

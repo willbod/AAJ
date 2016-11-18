@@ -10,6 +10,10 @@ $('#vModal').on('shown.bs.modal', function () {
   $('#vInput').focus()
 })
 
+$('#cModal').on('shown.bs.modal', function () {
+  $('#cInput').focus()
+})
+
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').focus()
 })
