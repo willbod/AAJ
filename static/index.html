@@ -230,11 +230,11 @@
                         <div class="row">
                             <div class="col-md-10 col-md-offset-1">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
-                                                    <img alt="..." class="img-circle" src="/img/faces/"/>
+                                                    <img alt="..." class="img-circle" src="/img/faces/sergio_pic.png"/>
                                                 </div>
                                                 <div class="description">
                                                     <h3 class="title">Sergio Aguilar Rodriquez</h3>
@@ -244,10 +244,15 @@
                                                     <p class="description">Responsibilidad Civil y del Estado</p>
                                                     <p class="description">Representación de Victimas</p>
                                                 </div>
+                                                <div class="button-get-started">
+                                                    <div data-toggle="modal" data-target="#saModal">
+                                                        <a target="_blank" class="btn btn-warning btn-fill btn-sm">Ver más</a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <div class="card card-member">
                                             <div class="content">
                                                 <div class="avatar avatar-danger">
@@ -260,6 +265,33 @@
                                                     <p class="description">Derecho Civil</p>
                                                     <p class="description">Derecho Laboral y de Familia</p>
                                                     <p class="description">Derecho Internacional y Migratorio</p>
+                                                </div>
+                                                <div class="button-get-started">
+                                                    <div data-toggle="modal" data-target="#magModal">
+                                                        <a target="_blank" class="btn btn-warning btn-fill btn-sm">Ver más</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card card-member">
+                                            <div class="content">
+                                                <div class="avatar avatar-danger">
+                                                    <img alt="..." class="img-circle" src="/img/faces/gino_pic.png"/>
+                                                </div>
+                                                <div class="description">
+                                                    <h3 class="title">Gino Paul D'paola Puche</h3>
+                                                    <p class="small-text">Abogado</p><br>
+                                                    <p class="description">Derecho Comercial</p>
+                                                    <p class="description">Derecho Civil</p>
+                                                    <p class="description">Derecho Tributario</p>
+                                                    <p class="description">Derecho Económico</p>
+                                                </div>
+                                                <div class="button-get-started">
+                                                    <div data-toggle="modal" data-target="#gpModal">
+                                                        <a target="_blank" class="btn btn-warning btn-fill btn-sm">Ver más</a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -387,7 +419,10 @@
                                     <a href="#">Comó Funciona</a>
                                 </li>
                                 <li>
-                                    <a href="#">Términos &amp; Condiciones</a>
+
+                                        <div data-toggle="modal" data-target="#tcModal">
+                                            <a target="_blank">Términos &amp; Condiciones</a>
+                                        </div>
                                 </li>
                                 <li>
                                     <a href="#">Politica Empresarial</a>
@@ -555,7 +590,181 @@
       </div>
     </div>
 
+    <!--Sergio Modal-->
+    <div class="modal fade" id="saModal" tabindex="-1" role="dialog" aria-labelledby="saModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="saModalLabel">Sergio Aguilar Rodriguez</h4>
+          </div>
+          <div class="modal-body">
+              Sergio Alberto Aguilar Rodríguez, se desempeñó durante veintiocho (28) años como investigador en el área penal, Juez de la Republica, Fiscal delegado y Procurador Judicial, lo que le permitió adquirir amplia experiencia en la adecuación, interpretación y aplicación de las normas y disposiciones de diversas áreas del derecho (civil, penal, laboral, de familia y administrativo) y afianzar los conocimientos como especialista en derecho procesal e instituciones jurídico penales; al igual que estudios en el campo de los Derechos Humanos y del Derecho Internacional Humanitario.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerra</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!--Maria Modal-->
+    <div class="modal fade" id="magModal" tabindex="-1" role="dialog" aria-labelledby="magModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="magModalLabel">Maria Isabel Aguilar Goez</h4>
+          </div>
+          <div class="modal-body">
+              Abogada de la Universidad EAFIT, con experiencia en el sector financiero y bursátil, cuenta con un amplio conocimiento en Derecho Corporativo y Derecho Civil. Realizó su énfasis académico en Contratos Internacionales y Derecho Financiero y Bursátil. Actualmente se desempeña como asesora en temas de Derecho Comercial.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Gino Modal-->
+    <div class="modal fade" id="gpModal" tabindex="-1" role="dialog" aria-labelledby="gpModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="gpModalLabel">Gino Paul D'paola Puche</h4>
+          </div>
+          <div class="modal-body">
+              Abogado egresado de la Universidad EAFIT. Realizó su énfasis académico en  Responsabilidad Civil y Seguros. Actual estudiante en los programas de Especialización en Derecho Tributario en la Universidad Pontifica Bolivariana y Economía Aplicada en la Universidad EAFIT.  Cuenta con experiencia en el ámbito del derecho comercial y societario. Afinidad en las áreas de: derecho comercial, derecho civil, derecho tributario, derecho económico.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Terms & conditions Modal -->
+    <div class="modal fade" id="tcModal" tabindex="-1" role="dialog" aria-labelledby="tcModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="tcModalLabel">Términos y Condiciones</h4>
+          </div>
+          <div class="modal-body">
+              Propiedad intelectual: Todos los diseños, textos, contenidos gráficos y cualquier otro material dispuesto en la página web de 	Asesorías y Alternativas Jurídicas S.A.S  son de su exclusiva propiedad, con todos los derechos reservados, salvo que se estipule lo contrario, mediante autorización previa, expresa y escrita. En consecuencia, no podrán ser copiados o distribuidos sin el consentimiento previo, expreso y escrito de Asesorías y Alternativas Jurídicas S.A.S., con excepción de aquellas copias que pueda realizar el usuario con destino a usos personales y domésticos, no comerciales o con fines informativos, siempre y cuando no realice cambios ni modificaciones de ningún forma o índole, previa inclusión de esta nota de Copyright.
+Por otra parte, salvo estipulación en contrario, todas las marcas, slogans, logos y demás signos distintivos relacionados en la página web, son de propiedad de Asesorías y Alternativas Jurídicas S.A.S.
+El solo hecho de que en nuestro sitio web se haga referencia a marcas registradas, signos distintivos, patentes o cualquier otra creación de propiedad intelectual asociados a uno o varios productos o servicios, no será óbice de transferencia o cesión de ningún derecho por licencia o de ningún otro modo en conexidad con su uso, o por la mera lectura del material que es parte integrante del sitio web.
+Aviso legal:
+Asesorías y Alternativas Jurídicas S.A.S  no garantiza que el sitio web o el servidor que permite que la página web esté disponible operen sin errores o de forma ininterrumpida, así como tampoco el que esté libre de virus, malware o fallos cibernéticos. Asesorías y Alternativas Jurídicas S.A.S no se responsabilizará en ningún momento por los daños y perjuicios que se pudieren causar por fallas de desempeño, error, omisión, interrupción, defecto, demora, virus o malware o fallas de línea, relacionados con el sitio web o el servidor.
+En el evento en el que en el sitio web de Asesorías y Alternativas Jurídicas S.A.S se incluyan links o enlaces que dirijan a otros sitios webs, aquellos serán suministrados únicamente para la conveniencia de los usuarios. Sin embargo, la firma no acepta ni se responsabiliza por el funcionamiento ni por el contenido de dichos sitios. Así las cosas, los usuarios ingresan a dichos enlaces bajo su propio riesgo.
+Controversias:
+El sitio web de Asesorías y Alternativas Jurídicas S.A.S. es operado desde el domicilio social de la firma en la ciudad de Medellín, departamento de Antioquia, República de Colombia, por lo que en caso de controversia en relación con los términos y condiciones del sitio aquí descritos, usted podrá contactarnos a través del correo electrónico miaguiar@aajuridicas.com. Así mismo, mediante el ingreso a nuestro sitio web, usted acepta que cualquier controversia que se pueda presentar en su calidad de usuario con Asesorías y Alternativas Jurídicas S.A.S sea resuelta con sujeción a las leyes de la República de Colombia que resulten aplicables, excluyendo la aplicación de los principios sobre conflicto de normas que se derivan de la aplicación de la normatividad local que genere reenvío normativo y, en consecuencia, acepta someterse de plano a la jurisdicción de los jueces la República de Colombia, con atención a las reglas de competencia.
+
+
+Política de tratamiento de Datos Personales:
+Asesorías y Alternativas Jurídicas S.A.S.( en adelante Asesorías y Alternativas Jurídicas ) , es una sociedad comercial constituida mediante documento privado de los accionistas del 28 de septiembre de 2016, registrado en la Cámara de Comercio de Medellín el 05 de octubre del mismo año, en el libro 9  bajo el número 22591 y con matricula mercantil 21-571959-12, cuyo objeto principal es la prestación de servicios legales, desde la simple asesoría hasta el apoderamiento y representación de intereses ajenos ante cualquier autoridad judicial o administrativa.
+Asesorías y Alternativas Jurídicas, en desarrollo de su objeto social recolecta datos personales provenientes de sus empleados, clientes, accionistas y proveedores que tengan la calidad de persona natural y/o jurídica.
+AMBITO DE APLICACIÓN
+La Política será aplicable a las bases de datos en formato físico o electrónico que se encuentren bajo la administración de Asesorías y Alternativas Jurídicas y ésta actuará como Responsable, siempre que:
+•	El tratamiento de los datos de personas naturales se efectúe en territorio colombiano.
+•	El responsable o el encargado del tratamiento no resida en Colombia  sin embargo que en virtud de normas internacionales o tratados, le sea aplicable la legislación colombiana.
+
+ALCANCE
+Las disposiciones y mecanismos contenidos en esta política, abarcan todos aquellos datos personales, registrados en bases de datos contenidas en medios digitales o físicos.
+
+Dichas bases de datos se agrupan en los siguientes grupos:
+
+Clientes: se administra en forma digital y física.
+Proveedores: se administra en forma digital y física.
+Empleados: se administra en forma digital.
+Accionistas: se administra en forma física y reposa su contenido en el Libro de Registro de Accionistas.
+
+Los tipos de datos que se tratan en las bases referenciadas son los siguientes:
+
+Públicos: son  considerados datos públicos todos aquellos que están contenidos en documentos públicos, sentencias judiciales debidamente ejecutoriadas no sometidas a reserva y los relativos al estado civil de las personas.
+Semiprivados: son datos semiprivados todos aquellos que no tienen naturaleza íntima, reservada ni pública y que son de interés particular para un sector específico.
+
+INTERPRETACION DE PRINCIPIOS
+La Ley 1581 de 2012 se interpretará en el sentido de que se amparen adecuadamente los derechos constitucionales como el hábeas data, el derecho al buen nombre, el derecho a la honra, el derecho a la intimidad y el derecho a la información. Los derechos de los titulares se interpretarán en armonía y en un plano de equilibrio con el derecho a la información previsto en el Artículo 20 y siguientes de la Constitución, al igual que con todos aquellos derechos conexos.
+TRATAMIENTO Y FINALIDADES
+Asesorías y Alternativas Jurídicas S.A.S., podrá directamente, o en conjunto con terceros encargados, realizar el Tratamiento de los datos personales suministrados por los titulares. Los datos serán conservados en las bases de datos debidamente clasificadas por Asesorías y Alternativas Jurídicas   S.A.S.
+Las finalidades del Tratamiento son las siguientes:
+a) Desarrollar la relación contractual que se llegue a establecer con el Titular de los datos.
+b) Evaluar candidatos a ser vinculados como funcionarios de la Compañía.
+c) Desarrollar las relaciones laborales que existan con sus empleados.
+d) Conocer y hacer seguimiento a la idoneidad financiera y al comportamiento comercial de sus proveedores.
+e) Realizar encuestas con el fin de conocer sus gustos y preferencias y poder de esta manera desarrollar servicios que respondan de manera más directa a sus necesidades; y mejorar el servicio prestado tanto en oportunidad como en calidad.
+
+DERECHOS DE LOS TITULARES
+ Asesorías y Alternativas Jurídicas S.A.S., atenderá sus peticiones, consultas y/o reclamos en su domicilio ubicado en la Carrera 42 No. 5 sur 46 y al correo electrónico miaguilar@aajuridicas.com
+El Titular de los datos tiene derecho:
+Conocer, acceder, actualizar, rectificar y suprimir sus datos personales en los términos previstos en la Ley 1581 de 2012, pudiendo ejercer estos derechos de manera gratuita, por escrito mediante carta acompañada de copia del documento de identidad, dirigida a la dirección anteriormente señalada.
+ Presentar, ante la Superintendencia de Industria y Comercio, quejas por infracciones a la Ley General y sus decretos reglamentarios.
+Acceder en forma gratuita, a través de los canales dispuestos por Asesorías y Alternativas Jurídicas, a sus datos personales que hayan sido objeto de tratamiento.
+Correlativamente, le asiste a los titulares el deber contractual con la firma de actualizar, al menos una vez al año, la información que reposa en las bases de datos. En consecuencia, para el efectivo cumplimiento del principio de veracidad de la información, Asesorías y Alternativas Jurídicas adelantará las gestiones correspondientes para la obtención de la actualización de los datos, siempre que estos conserven la misma finalidad en su tratamiento.
+Asesorías y Alternativas Jurídicas a través de su Política de Tratamiento de Datos Personales, disponible en la página web, informará acerca de los canales y procedimientos previstos para que el titular pueda ejercer sus derechos de manera efectiva.
+
+DEBERES EN CALIDAD DE RESPONSABLE DEL TRATAMIENTO.
+Asesorías y Alternativas Jurídicas actuará como RESPONSABLE de las bases de datos y su correcta administración y tratamiento cuando:
+
+Decida sobre la base de datos, la forma en que se administra y el tratamiento que se le da a los mismos.
+Definirá sobre los fines y medios esenciales para el tratamiento del dato, incluyendo su uso en casos particulares y su divulgación o circulación.
+
+En este orden de ideas, le asisten los siguientes deberes:
+
+Garantizar, a través de los canales de atención establecidos, el pleno y efectivo ejercicio del derecho del tratamiento de la información, incluyendo el hábeas data y demás derechos fundamentales asociados a los Titulares de datos.
+
+Conservar las autorizaciones otorgadas por los Titulares cuando éstas consten por escrito o cuando se hayan obtenido de manera telefónica y por correo electrónico.
+
+Informar acerca de la finalidad de la recolección que constará tanto en el texto que se utilice para obtener la autorización, como en el Aviso de Privacidad de Datos; el titular siempre conocerá el tipo de tratamiento que se le dará a sus datos, si éstos van a circular o van a ser compartidos con las entidades vinculadas, o con aliados comerciales, con qué finalidad o finalidades y la manera de poder manifestar su voluntad en relación con ese alcance del tratamiento.
+
+Informar que el uso que hace de los datos es el correspondiente al desarrollo de su objeto social e indicar que podrá utilizar los datos personales suministrados para el desarrollo de herramientas estadísticas y de prevención de fraude.
+
+Señalar que solicita el consentimiento del titular para hacer envío de información comercial referida a los productos y servicios ofrecidos por ésta, así como para que las compañías aliadas, filiales y subsidiarias puedan enviar publicidad sobre sus productos y servicios, los cuales complementan el portafolio de servicios.
+
+Aplicar las medidas de seguridad, necesarias y suficientes, para impedir la adulteración, pérdida, fuga, consulta o uso no autorizado.
+Cumplir con el deber de garantía de veracidad, completitud, exactitud, actualidad y comprensión de la información a encargados del tratamiento.
+Informar a la Superintendencia de Industria y Comercio de los incidentes de seguridad que puedan poner en peligro la administración de la información de los Titulares.
+Reportar y actualizar, al menos una (1) vez al año, la información contenida en el Registro Nacional de Bases de Datos (RNBD).
+
+
+DEBERES EN CALIDAD DEL  ENCARGADO DEL  TRATAMIENTO.
+
+Asesorías y Alternativas Jurídicas actuará como ENCARGADO, de las bases de datos y su correcta administración y tratamiento cuando realice el tratamiento de los datos personales por cuenta del responsable del tratamiento.
+Recibir y tramitar las actualizaciones de la información, realizadas por el responsable en el término de cinco (5) días hábiles previsto en la Ley.
+Impartir las instrucciones correspondientes en caso que se ordene el bloqueo de parte de la Superintendencia de Industria y Comercio por la existencia de controversia de parte del Titular.
+Permitir el acceso a la información únicamente a las personas autorizadas por la Ley para ello. Para estos efectos se atenderán los requisitos que deben cumplir las Autoridades Judiciales y Administrativas que hagan solicitudes, los cuales estarán referidos a la identificación clara de las funciones en virtud de las cuales se efectúa el requerimiento y el número asignado a la investigación que se adelanta.
+Establecer de manera clara los requisitos que deben cumplir los titulares, apoderados o causahabientes, en particular la manera de acreditar su calidad y los soportes que se requieran.
+VIGENCIA
+Los datos se conservan de acuerdo con los principios de necesidad y razonabilidad.
+
+Los datos de clientes, deberán ser conservados de acuerdo a la normatividad. Su tratamiento o uso estará vigente hasta que se dé por terminada la vinculación del cliente con la entidad, ésta deberá constar en un medio físico.
+
+Los archivos de Empleados y Proveedores de acuerdo con los términos de las leyes especiales que regulen su tratamiento.
+
+El almacenamiento posterior de toda la información, será acorde a lo estipulado en el Decreto 2649 de 1993 (Ley de Archivo), Artículo 134, que establece que se deben conservar debidamente ordenados los libros de contabilidad, de actas, de registro de aportes, los comprobantes de las cuentas, los soportes de contabilidad y la correspondencia relacionada con todas las operaciones de la sociedad por 20 años, a menos que pueda garantizarse su reproducción en medios técnicos, en este caso solo se preservarán por diez años.
+
+SEGURIDAD DE LA INFORMACIÓN
+Asesorías y Alternativas Jurídicas S.A.S., cuenta con mecanismos de conservación de la información seguros, que buscan garantizar que la información no sea accedida, modificada o eliminada por personas no autorizadas.
+CAMBIOS EN LAS POLÍTICAS
+Cualquier cambio sustancial en los términos de las políticas y procesos en protección de datos personales o de este aviso de privacidad, será informado a través de la página web de Asesorías y Alternativas Jurídicas S.A.S. www.aajuridicas.com 
+            </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerra</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 </body>
 

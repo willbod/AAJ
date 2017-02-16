@@ -19,6 +19,19 @@ $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').focus()
 })
 
+//Experiencas
+$('#saModal').on('shown.bs.modal', function () {
+  $('#saInput').focus()
+})
+
+$('#magModal').on('shown.bs.modal', function () {
+  $('#magInput').focus()
+})
+
+$('#gpModal').on('shown.bs.modal', function () {
+  $('#gpInput').focus()
+})
+
 //Eng
 $('#eqsModal').on('shown.bs.modal', function () {
   $('#eqsInput').focus()
