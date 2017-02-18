@@ -32,6 +32,16 @@ $('#gpModal').on('shown.bs.modal', function () {
   $('#gpInput').focus()
 })
 
+//T&Cs
+$('#tcModal').on('shown.bs.modal', function () {
+  $('#tcInput').focus()
+})
+
+//Politica Empresarial
+$('#peModal').on('shown.bs.modal', function () {
+  $('#peInput').focus()
+})
+
 //Eng
 $('#eqsModal').on('shown.bs.modal', function () {
   $('#eqsInput').focus()
