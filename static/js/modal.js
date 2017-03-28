@@ -66,7 +66,7 @@ $('#emyModal').on('shown.bs.modal', function () {
 
 //Experiences English
 $('#sa_eModal').on('shown.bs.modal', function () {
-  $('#saInput').focus()
+  $('#sa_eInput').focus()
 })
 
 $('#mag_eModal').on('shown.bs.modal', function () {
@@ -74,15 +74,15 @@ $('#mag_eModal').on('shown.bs.modal', function () {
 })
 
 $('#gp_eModal').on('shown.bs.modal', function () {
-  $('#gpInput').focus()
+  $('#gp_eInput').focus()
 })
 
 //T&Cs English
 $('#tc_eModal').on('shown.bs.modal', function () {
-  $('#tcInput').focus()
+  $('#tc_eInput').focus()
 })
 
 //Company Policy English
 $('#pe_eModal').on('shown.bs.modal', function () {
-  $('#peInput').focus()
+  $('#pe_eInput').focus()
 })
